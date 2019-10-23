@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UnityAnalyticsModule_NOTELEMETRY_KSP18", "UnityEngine.UnityAnalyticsModule_NOTELEMETRY_KSP18.csproj", "{031DAA5B-47BC-4264-8CE0-C13802C4BE4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{031DAA5B-47BC-4264-8CE0-C13802C4BE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031DAA5B-47BC-4264-8CE0-C13802C4BE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031DAA5B-47BC-4264-8CE0-C13802C4BE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031DAA5B-47BC-4264-8CE0-C13802C4BE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {992D7BB9-82DF-412C-96BD-A89B7C56EDD3}
+	EndGlobalSection
+EndGlobal
