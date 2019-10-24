@@ -12,16 +12,7 @@ namespace UnityEngine.Analytics
     [StructLayout(LayoutKind.Sequential)]
     public static class Analytics
     {
-        public static bool initializeOnStartup
-        {
-            get
-            {
-                return true;
-            }
-            set
-            {
-            }
-        }
+        public const bool initializeOnStartup = false;
 
         public static AnalyticsResult ResumeInitialization()
         {
@@ -117,55 +108,13 @@ namespace UnityEngine.Analytics
           int ver,
           string prefix);
 
-        public static bool playerOptedOut
-        {
-            get
-            {
-                return true;
-            }
-        }
+        public const bool playerOptedOut = true;
 
-        public static bool limitUserTracking
-        {
-            get
-            {
-                UnityEngine.Analytics.Analytics.limitUserTrackingInternal = true;
-                return true;
-            }
-            set
-            {
-                UnityEngine.Analytics.Analytics.limitUserTrackingInternal = true;
-                return;
-            }
-        }
+        public const bool limitUserTracking = true;
 
-        public static bool deviceStatsEnabled
-        {
-            get
-            {
-                UnityEngine.Analytics.Analytics.deviceStatsEnabledInternal = false;
-                return false;
-            }
-            set
-            {
-                UnityEngine.Analytics.Analytics.deviceStatsEnabledInternal = false;
-                return;
-            }
-        }
+        public const bool deviceStatsEnabled = false;
 
-        public static bool enabled
-        {
-            get
-            {
-                UnityEngine.Analytics.Analytics.enabledInternal = false;
-                return false;
-            }
-            set
-            {
-                UnityEngine.Analytics.Analytics.enabledInternal = false;
-                return;
-            }
-        }
+        public const bool enabled = false;
 
         public static AnalyticsResult FlushEvents()
         {
